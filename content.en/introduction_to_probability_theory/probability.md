@@ -189,3 +189,11 @@ helps us to solve the problems.
 For the following problem, combinatorics is used to find the 
 number of elements in the sample space and the events. 
 
+___
+**Example 12.4**  
+Suppose ten coins are tossed. Find the probability to get (i) exactly two heads (ii) at most 
+two heads (iii) at least two heads   
+**Solution**  
+Ten coins are tossed simultaneously one time = one coin is tossed 10 times
+Let S the sample space,   
+That is \\(S = \\) {\\(H,T\\)} {\\(H,T\\)} {\\(H,T\\)}.... {\\(H,T\\)}..............10 times.
