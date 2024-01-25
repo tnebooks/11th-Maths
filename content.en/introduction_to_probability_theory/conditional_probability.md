@@ -1,6 +1,6 @@
 ---
 title: 'Conditional probability'
-weight: 6
+weight: 5
 ---
 
 # Content Will be Added Soon

@@ -1,6 +1,6 @@
 ---
 title: 'Some basic theorems on probability'
-weight: 5
+weight: 4
 ---
 
 # Content Will be Added Soon
