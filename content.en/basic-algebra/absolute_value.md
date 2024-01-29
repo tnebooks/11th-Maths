@@ -1,5 +1,5 @@
 ---
-title: 'Absolute value'
+title: "Absolute value"
 weight: 2
 ---
 
