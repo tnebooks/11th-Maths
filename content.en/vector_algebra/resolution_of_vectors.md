@@ -1,6 +1,6 @@
 ---
 title: 'Resolution of vectors'
-weight: 6
+weight: 5
 ---
 
 # Resolution of Vectors
@@ -11,9 +11,15 @@ three dimensions. Let us start with two dimension.
 ### Resolution of a vector in two dimension
 
 # Theorem 8.5
+<<<<<<< HEAD
 Let {{<katex>}}\overrightarrow{i}{{</katex>}} and {{<katex>}}\overrightarrow{j}{{</katex>}}be the unit vectors along the positive x-axis and the y-axis having initial point at 
 the origin O. Now {{<katex>}}\overrightarrow{OP}{{</katex>}} is the position vector of any point P in the plane. Then {{<katex>}}\overrightarrow{OP}{{</katex>}} can be uniquely 
 written as
 
 {{<katex>}}\overrightarrow{OP}{{</katex>}} = xi y j ˆ ˆ + for some real numbers x and y. Further |{{<katex>}}\overrightarrow{OP}{{</katex>}}|= {{<katex>}}x^2{{</katex>}}+{{<katex>}}y^2
 {{</katex>}}
+=======
+Let {{<katex>}}(\overrightarrow{i}{j}) and be the unit vectors along the positive x-axis and the y-axis having initial point at 
+the origin O. 
+
+>>>>>>> 2d15130e35d094cea4e16564ca718263804f9ae7
