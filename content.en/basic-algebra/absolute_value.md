@@ -34,12 +34,16 @@ Next we shall learn solving equations involving absolute value.
 Solution:
 |2x − 17| = 3. Then, we have 2x − 17 = ±3 which implies x = 10 or x = 7.
 
+---
+
 **Example 2.2** Solve 3|x − 2| + 7 = 19 for x.
 
 Solution:
 3|x − 2| + 7 = 19. So that we have, |x − 2| = {{< katex >}} \frac{19-7}{3} {{< /katex >}}= 4.
 Thus, we have either x − 2 = 4 or x − 2 = −4.
 Therefore the solutions are x = −2 and x = 6.
+
+---
 
 **Example 2.3** Solve |2x − 3| = |x − 5|.
 
@@ -49,6 +53,8 @@ Therefore, |2x − 3| = |x − 5| implies 2x − 3 = x − 5 or 2x − 3 = 5 −
 Solving these two equations, we get x = −2 and x = {{< katex >}} \frac{8}{3} {{< /katex >}}.
 Hence, both x = −2 and x = {{< katex >}} \frac{8}{3} {{< /katex >}}
 are solutions.
+
+---
 
 **2.3.3 Some Results For Absolute Value**
 
@@ -82,10 +88,14 @@ Therefore we have, |x| < r if and only if −r < x < r, that is x ∈ (−r, r).
 (ii) For any a ∈ R, |x − a| ≥ r is equivalent to x − a ≤ −r or x − a ≥ r if and only if
 x ∈ (−∞, a − r] ∪ [a + r, ∞).
 
+---
+
 **Example 2.4** Solve |x − 9| < 2 for x.
 
 Solution:
 |x − 9| < 2 implies −2 < x − 9 < 2. Thus, 7 < x < 11.
+
+---
 
 **Example 2.5**
 Solve
@@ -94,7 +104,7 @@ Solve
 Solution:
 
 From the given inequality, we have that 2 > |x − 4|.
-That is, −2 < x − 4 < 2 and x 6= 4.
+That is, −2 < x − 4 < 2 and x {{< katex >}} \neq {{< /katex >}} 4.
 Adding 4 throughout the inequality, we obtain 2 < x < 6 and x 6= 4.
 So the solution set is (2, 4) ∪ (4, 6).
 
