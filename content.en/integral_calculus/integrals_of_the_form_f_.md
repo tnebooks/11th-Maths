@@ -5,91 +5,101 @@ weight: 4
 
 # 4 Integrals of the form f
 
-**EXERCISE 11.4**
+we know that 
 
-(1) If f(x) F'(x) 4 5 and (2) 1, = − = find f x( ).
-(2) If 2 f(x) F'(x) 9 6 and (0) 3, = − = − find f x( ).
-(3) If fx x f ′′( ) 12 6 and (1) 30, =− = f ′(1) 5 = find f x( ).
+{{< katex >}} \frac{d}{dx} {{< /katex >}}[{{< katex >}} \frac{(x-a)}{10} {{< /katex >}}] = (x-a){{< katex >}}^{9}{{< /katex >}} =>  ∫(x-a){{< katex >}}^{9}{{< /katex >}} dx = {{< katex >}} \frac{(x-a)}{10} {{< /katex >}}+c
 
-It is clear that whenever a constant is added or subtracted with the independent variable x, the
+{{< katex >}} \frac{d}{dx} {{< /katex >}}[sin(x+k)]=cos(x+k) => 
+∫cos(x+k)dx=sin(x+k)+c
+
+ It is clear that whenever a constant is added or subtracted with the independent variable x, the 
 fundamental formulae remain the same.
-But
- d
-dx l
-e
-1 lx m ( )  
-
- 
-
- = e e dx
-l
-e c
-lx  m l   x m lxm   1 ( )
- d
-dx a
-ax b 1 sin(  )] 
-
- 
-
- = cos(ax b a ) cos( ) x b dx sin( )
-a
-    ax   b c  1
+     But
+
+{{< katex >}} \frac{d}{dx} {{< /katex >}} [{{< katex >}} \frac{1}{l} {{< /katex >}}(e{{< katex >}}^{lx+m}{{< /katex >}})]= e{{< katex >}}^{lx+m}{{< /katex >}} => ∫ e{{< katex >}}^{lx+m}{{< /katex >}} dx = {{< katex >}} \frac{1}{l} {{< /katex >}}e({{< katex >}}^{lx+m}{{< /katex >}})+c
+
+{{< katex >}} \frac{d}{dx} [{{< /katex >}}[{{< katex >}} \frac{1}{a} {{< /katex >}}sin(ax+b)]] = cos(ax+b) => ∫cos(ax+b)dx =  {{< katex >}} \frac{1}{a} {{< /katex >}} sin(ax+b)+c
+
 Here, if any constant is multiplied with the independent variable x, then the same fundamental
 formula can be used after dividing it by the coefficient of x
-That is, if f x dx g x c f then ax b dx
-a
-() ()   , (   ) ( g ax b  ) c  1 
-The above formula can also be derived by using substitution method, which will be studied later
 
-Illustration 11.1
-If 2 Fx x ( ) = + 5 then
- Fx x ′() 2 = .
- Thus if f x( ) is defined by
- fx x () 2, = then
-we say that f x( ) is the derivative of F x( ) and that F x( ) is
-an antiderivative of f x( )
-Consider the following table
-F x( ) Fx fx ′() () = Antiderivative of fx x () 2 =
-2 Px x ( ) = + 0
-2 Qx x ( ) = + 2
-2 Hx x ( ) = −1
-Px x ′() 2 =
-Qx x ′() 2 = fx x () 2 =
-Hx x ′() 2 =
- 2 Fx x ( ) = + ?
-We can see that the derivative of F x( ), P x( ),Q x( ) and H x( ) is f x( ) , but in reverse the
-antiderivatives of fx x () 2 = is not unique. That is the antiderivatives of f x( ) is a family of infinitely
-many functions. 
-dy x
-dx =
-Fig. 11.5
-( ) 2 5
-F x x = +
-2 ( ) P x x =
-( ) 2 2
-Q x x = +
-2 1
-( ) H x x = −
-x
-y
-
-
-
-
-
-11_11th-Maths-Vol2-Unit11.indd 185 31-05-2022 19:21:13
-www.tntextbooks.in
-XI - Mathematics 186
-and the initial condition that y x = = 10 when 2.
-From the given equation
-2 dy x
-dx =
- y x dx = 2∫
- 2
-yx c = +
-We substitute y x = = 10 when 2 , in the above equation
- 2 10 2 =+⇒= c c 6
-When this value c =6 is substituted we obtain
- 2
-y x = + 6
- which gives the particular antiderivative desired.
+that is, if ∫f(x)dx = g(x)+c,
+ then ∫f(ax+b)dx = {{< katex >}} \frac{1}{a}{{< /katex >}}g(ax+b)+c
+
+ The above formula can also be derived by using substitution method, which will be studied later.
+
+**Example 11.4**
+
+Evaluate the following with respect to x:
+
+ (i)∫(4x+5){{< katex >}}^{6}{{< /katex >}} dx (ii)∫{{< katex >}}\sqrt{15-2x}{{< /katex >}}dx (iii)∫{{< katex >}} \frac{1}{((3x+7))} {{< /katex >}}dx
+
+ **Solution**
+
+(i)∫(4x+5){{< katex >}}^{6}{{< /katex >}} dx = {{< katex >}} \frac{1}{4} {{< /katex >}} {{< katex >}} \frac{4x+5}{6+1} {{< /katex >}} = {{< katex >}} \frac{(4x+5)}{28} {{< /katex >}}+c
+
+(ii)∫{{< katex >}}\sqrt{15-2x}{{< /katex >}}dx = ∫(15-2x){{< katex >}}^{1/2}{{< /katex >}} dx 
+
+(iii)∫{{< katex >}} \frac{1}{((3x+7))} {{< /katex >}}dx = ∫(3x+7){{< katex >}}^{-4}{{< /katex >}}
+
+**Example 11.5**
+
+Integrate the following with respect to x
+
+ (i) 2/cos x    (ii) cotx/sinx    (iii) sinx /cosx    (iv) {{< katex >}} \frac{1}{\sqrt[]{}1+x} {{< /katex >}}
+
+ **solution**
+
+(i) ∫{{< katex >}} \frac{1}{cosx} {{< /katex >}} = ∫ secx xdx= tanx+c 
+
+(ii) ∫{{< katex >}} \frac{cotx}{sinx} {{< /katex >}}dx = ∫cosecxcotx dx = -cosecx+c
+
+(iii)∫{{< katex >}} \frac{sinx}{cosx} {{< /katex >}}dx= ∫{{< katex >}} \frac{sinx}{cosx} {{< /katex >}}.{{< katex >}} \frac{1}{cosx} {{< /katex >}}dx = ∫tanxsecx dx = secx +c
+
+(iv) ∫{{< katex >}} \frac{1}{\sqrt[]{}1+x} {{< /katex >}} dx = sinx+c
+
+**Example 11.6**
+
+Integrate the following with respect to x:
+
+(i) 1/x{{< katex >}}^{-e}{{< /katex >}}      (ii) x{{< katex >}}^{2}{{< /katex >}}/x{{< katex >}}^{3}{{< /katex >}}     (iii) 1/x{{< katex >}}^{3}{{< /katex >}}    (iv)   {{< katex >}} \frac{1}{1+x} {{< /katex >}}
+
+**solution**
+
+   (i) ∫1/e{{< katex >}}^{-x}{{< /katex >}}   
+
+   (ii) ∫x{{< katex >}}^{2}{{< /katex >}}/x{{< katex >}}^{3}{{< /katex >}} (dx) =∫ {{< katex >}} \frac{1}{x} {{< /katex >}} dx = log|x|+c
+
+   (iii) ∫1/x{{< katex >}}^{3}{{< /katex >}}dx = ∫x{{< katex >}}^{-3}{{< /katex >}} dx =  {{< katex >}} \frac{x}{-3+1} {{< /katex >}}+c=  {{< katex >}} \frac{1}{2x} {{< /katex >}}+c
+
+   (iv)  ∫{{< katex >}} \frac{1}{1+x} {{< /katex >}} dx = tan{{< katex >}}^{-1}{{< /katex >}}x+c
+
+**Example 11.7**
+
+Integrate the following with respect to x:
+
+(i) e{{< katex >}}^{3x}{{< /katex >}}     (ii) e{{< katex >}}^{5-4x}{{< /katex >}}      (iii){{< katex >}} \frac{1}{3x-2} {{< /katex >}} 
+
+**Solution**
+
+(i) ∫e{{< katex >}}^{3x}{{< /katex >}} dx = {{< katex >}} \frac{1}{3} {{< /katex >}}  e{{< katex >}}^{3x}{{< /katex >}}+c
+
+(ii) ∫e{{< katex >}}^{5-4x}{{< /katex >}} dx =  (-e{{< katex >}}^{5-4x}{{< /katex >}}/4) +c
+
+(iii) ∫{{< katex >}} \frac{1}{3x-2} {{< /katex >}} dx = {{< katex >}} \frac{1}{3} {{< /katex >}}log|(3x-2)|+c
+
+**EXERCISE 11.2**
+
+    Integrate the following with respect to x:
+
+(1) (i) x{{< katex >}}^{11}{{< /katex >}}           (ii)1/x{{< katex >}}^{7}{{< /katex >}}
+(iii) {{< katex >}}\sqrt[3]{x}{{< /katex >}} {{< katex >}}^{4}{{< /katex >}}   (iv)(x{{< katex >}}^{5}{{< /katex >}}) {{< katex >}}^{1/8}{{< /katex >}} 
+
+(2) (i)1/sin{{< katex >}}^{2}{{< /katex >}}x   (ii) {{< katex >}} \frac{tanx}{cosx} {{< /katex >}} 
+     (iii)  {{< katex >}} \frac{cosx}{sinx} {{< /katex >}}  (iv)1/cos{{< katex >}}^{2}{{< /katex >}}x
+     
+(2) (i) 12{{< katex >}}^{3}{{< /katex >}} (ii) x{{< katex >}}^{23}{{< /katex >}}/x{{< katex >}}^{25}{{< /katex >}}
+     (iii) e{{< katex >}}^{x}{{< /katex >}}
+     
+(2) (i) (1+x{{< katex >}}^{2}{{< /katex >}}){{< katex >}}^{-1}{{< /katex >}} (ii) (1+x{{< katex >}}^{2}{{< /katex >}}){{< katex >}}^{-1}{{< /katex >}}
+                                             

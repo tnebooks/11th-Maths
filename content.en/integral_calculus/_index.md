@@ -22,24 +22,25 @@ of Mathematics. Calculus serve as unavoidable tool for finding solutions to the 
 that arise in physics, astronomy, engineering, chemistry, geology, biology, and social sciences.
 
 Calculus deals principally with two geometric problems.
+
 (i) The problem of finding SLOPE of the tangent line to the curve, is studied by the limiting
 process known as differentiation and
+
 (ii) Problem of finding the AREA of a region under a curve is studied by another limiting process
 called Integration.
+
 In chapters 9 and 10, we have studied the differential calculus. In this chapter let us study some
 fundamentals of integration.
 Consider some simple situations illustrated below.
 
 
-**Solution**
+**Solution 1**
 
 The shortest distance between two points A and B in a plane is the line segment joining the straight
 line A and B. Suppose it is required to find the line connecting two points A and B that do not lie
 on a vertical line such that a moving particle slides down on this line from A to B in the shortest
 time (minimum time). Most of us believe that the shortest distance path in Fig. 11.1(a) will take the shortest time.
-![](fig.11.1(a).png)
-<!-- <img src="Fig. 11.1 (a).png" alt="omar" style="float:right; margin-right:10px;" /> -->
-![Figure with 50%](Fig. 11.1 (a) "w-50 float-end")
+
 
 Certainly this route is not the shortest time route joining the points A and B, because the velocity
 of the motion in the straight line (Fig. 11.1(a)) will be comparatively slow; whereas it take a curve

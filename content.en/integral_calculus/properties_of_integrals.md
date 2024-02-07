@@ -5,98 +5,60 @@ weight: 5
 
 # 5 Properties of Integrals
 
-(1) If k is any constant, then kf (x) dx = k  f(x) dx
-(2) ( ( f x)+ ( f x))dx =f (x) (x) dx f x dx
-The above two properties can be combined and extended as
+(1) If k is any constant, then ∫kf (x) dx = k ∫f(x) dx                                 
+(2) ∫(f{{< katex >}}_{1}{{< /katex >}}(x)+f{{< katex >}}_{2}{{< /katex >}}(x))dx =f{{< katex >}}_{2}{{< /katex >}}(x)dx  
 
+**Note 11.1**                                
+
+The above two properties can be combined and extended as                   
+∫(k{{< katex >}}_{1}{{< /katex >}}(x)f{{< katex >}}_{2}{{< /katex >}}+k{{< katex >}}_{2}{{< /katex >}}f{{< katex >}}_{2}{{< /katex >}}+k{{< katex >}}_{3}{{< /katex >}}(x)f{{< katex >}}_{3}{{< /katex >}}+...................+k{{< katex >}}_{n}{{< /katex >}}f{{< katex >}}_{n}{{< /katex >}})                         
 That is, the integration of the linear combination of a finite number of functions is equal to the
 linear combination of their integrals
-In elementary geometry we have learnt to evaluate the measure of the following regular shape of
-the figures given below by using known formulae.
 
-How can the measure of the following figures given by functions be calculated?
-Though the problems look so difficult, integral calculus solves it without any difficulties.
+**Example 11.8**
 
-**Solution 3** 
+Integrate the following with respect to x:
+ (i) 5x{{< katex >}}^{4}{{< /katex >}}   (ii) 5x{{< katex >}}^{4}{{< /katex >}}-4+{{< katex >}} \frac{7}{x} {{< /katex >}}+{{< katex >}} \frac{2}{\sqrt{x}} {{< /katex >}}    (iii) 2cosx-4sinx+ 5sec{{<katex>}}^{2}{{</katex>}}x cosec{{<katex>}}^{2}{{</katex>}}x   
 
- At a particular moment, a student needs to stop his speedy bike
-to avoid a collision with the barrier ahead at a distance 40 metres
-away from him. Immediately he slows (acceleration) down the bike
-applying brake at a rate of 2 8 meter/second . If the bike is moving
-at a speed of 24m/s, when the brakes are applied, will it stop before
-collision?
-Also look at the following problems that occur naturally in our
-life.
+**Solution**   
 
-♦ What speed has to be applied to fire a satellite upward so that it never returns to the earth?
-♦ What is the radius of the smallest circular disk that can cover every isosceles triangle of given
-perimeter P?
-♦ What volume of material is removed from a solid sphere of radius 2r if a hole of radius r is
-drilled through the centre?
-♦ If a strain of bacteria grows at a rate proportional to the amount present and if the population
-doubles in one hour, how much will it increase at the end of two hours?
-Integration will answer for all the above problems.
+(i) 5x{{< katex >}}^{4}{{< /katex >}}dx
 
-**Learning Objectives**
-
-On completion of this chapter, the students are expected to
-• understand the definition of an indefinite integral as a result of reversing the process of
-differentiation
-• find the indefinite integrals of sums, differences and constant multiples of certain elementary
-functions.
-• use the appropriate techniques to find the indefinite integrals of composite functions.
-• apply integration to find the function, when the rate of change of function is given.
+(ii) 5x{{< katex >}}^{4}{{< /katex >}}-4+{{< katex >}} \frac{7}{x} {{< /katex >}}+{{< katex >}} \frac{2}{\sqrt{x}} {{< /katex >}}
 
 Example 11.9
-Evaluate the following integrals:
-(i) 3
-12
-(4 5) x − +
-6
-3 2 x +
-+ 4 3 16 x e + (ii) 15 8cot(4 2)cosec(4 2) 5 4
-x x
-x
-−+ + −
-Solution
- (i) 4 3
-3
-12 6 16
-(4 5) 3 2
-x e dx
-x x
-+     + +
-  − + ∫
- = 4 3
-3
-1 1 12 6 16
-(4 5) 3 2
-x dx dx e dx
-x x
-+ + +
-− + ∫ ∫∫
- = 4 3
-2
-11 1 1 12 6 log 3 2 16 4 2(4 5) 3 4
-x x ec
-x
-+             − + ++ +        −    
- = 4 3
-2
-3 2log 3 2 4 . 2(4 5)
-x x ec
-x
-+ − + ++ + −
- (ii) 15 8cot(4 2)cosec(4 2) 5 4
-x x dx
-x
-  −+ +     − ∫
- = 1 15 8 cot(4 2)cosec(4 2) 5 4
-dx x x dx
-x
-−+ + − ∫ ∫
- = 1 1 15 (2 5 4) 8 ( cosec(4 2)) 5 4
-x x c       −− − + +      
- = 6 5 4 2cosec(4 2) .
+Evaluate the following integrals:         
 
- 
+(i) {{< katex >}} \frac{12}{(4x-5)^{3}} {{< /katex >}} + {{< katex >}} \frac{6}{3x+2}{{< /katex >}} + 16e{{< katex >}}^{4x+3} {{< /katex >}}  (ii) {{< katex >}} \frac{15}{\sqrt{15x-4}} {{< /katex >}} -8cot(4x+2)cosec(4x+2) 
+
+**Solution**
+
+ (i)  ∫({{< katex >}} \frac{12}{(4x-5)^{3}} {{< /katex >}} + {{< katex >}} \frac{6}{3x+2}{{< /katex >}} + 16e{{< katex >}}^{4x+3} {{< /katex >}})
+
+   = 12∫{{< katex >}} \frac{1}{(4x-5)^{3}} dx +6∫{{< /katex >}} + {{< katex >}} \frac{1}{3x+2}{{< /katex >}} + 16∫e{{< katex >}}^{4x+3} {{< /katex >}}+c
+
+   =- {{< katex >}} \frac{3}{2(4x-5)^{2}}{{< /katex >}}+2log|3x+2|+4e{{<katex>}}^{4x+3}{{</katex>}}+c
+
+(ii) ({{< katex >}} \frac{15}{\sqrt{15x-4}} {{< /katex >}} -8cot(4x+2)cosec(4x+2))dx
+
+=15{{< katex >}} \frac{15}{\sqrt{15x-4}} {{< /katex >}} dx-8 cot(4x+2)cosec(4x+2)dx
+
+=15{{< katex >}} \frac{1}{{5}} {{< /katex >}} (2{{<katex>}}\sqrt{5x-4}{{</katex>}}) -8{{< katex >}} \frac{1}{4} {{< /katex >}}(-cosec(4x+2))+c
+
+ = 6{{<katex>}}\sqrt{5x-4}{{</katex>}}+2cosec(4x+2)+c
+
+ **EXERCISE 11.3**
+
+ Integrate the following with respect to x
+
+ (1) (X+4){{< katex >}}^{5} {{< /katex >}}+{{< katex >}} \frac{5}{(2-5X){^{4}}} {{< /katex >}} -cosec{{< katex >}} ^{(3x-1)} {{< /katex >}}   
+
+  (2) 4cos(5-2x)+9e{{< katex >}} ^{3x-6} {{< /katex >}}+{{< katex >}} \frac{24}{6-4x} {{< /katex >}}          
+
+  (3) sec{{< katex >}}^{2} {{< /katex >}}{{< katex >}} \frac{x}{5} {{< /katex >}} + 18cos2x+10sec(5x+3)tan(5x+3) 
+
+(4){{< katex >}} \frac{8}{\sqrt{1-4x{^{2}}}} {{< /katex >}}+ {{< katex >}} \frac{27}{\sqrt{1-9x{^{2}}}} {{< /katex >}} - {{< katex >}} \frac{15}{1-25x{^{2}}} {{< /katex >}}   
+
+(5) {{< katex >}} \frac{6}{1+(3x+2){^{2}}} {{< /katex >}} - {{< katex >}} \frac{12}{\sqrt{1-(3-4x){^{2}}}} {{< /katex >}}       
+        
+(6){{< katex >}} \frac{1}{3} {{< /katex >}}cos({{< katex >}} \frac{x}{3} {{< /katex >}}-4)+{{< katex >}} \frac{7}{7x+9} {{< /katex >}}+e{{< katex >}} ^{{\frac{x}{5}+3}} {{< /katex >}}
