@@ -348,7 +348,6 @@ Clearly, the calculation in radian measure is much easier to work with.
 
 4. {{< katex >}}\sin(90^\circ) = 1 {{</ katex >}}, but {{< katex >}} \sin(90) \neq 1 {{</ katex >}}(in radian measure).
 
-**Example 3.4** 
-Convert (i) 18◦
+**Example 3.4** Convert (i) 18◦
 to radians (ii)−108◦
 to radians.
